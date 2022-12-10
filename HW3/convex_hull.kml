@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <Style id="transBluePoly">
+      <LineStyle>
+        <width>1.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7dff0000</color>
+      </PolyStyle>
+    </Style>
+    <Style id="z1">
+		<IconStyle><Icon><href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href></Icon></IconStyle>
+	</Style>
+    <Placemark>
+      <name>Hull</name>
+      <styleUrl>#transBluePoly</styleUrl>
+      <Polygon>
+        <extrude>1</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates> 
+                -118.29016355808665,34.0199513873403
+                -118.29125840220978,34.02189339483794
+                -118.28264071617114,34.02131491343865
+                -118.28349323141242,34.02047793849755
+                -118.285121982141,34.02026847473729
+                -118.28888623986234,34.01997640732121
+                -118.29016355808665,34.0199513873403
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+<Placemark><name>Leavey_Fountain</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28264071617114,34.02131491343865</coordinates></Point>
+</Placemark>
+<Placemark><name>Leavey_Library</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28312552545059,34.02159595865199</coordinates></Point>
+</Placemark>
+<Placemark><name>The_Carolyn_Craig_Franklin_Library_Garden_Fountain</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28349323141242,34.02047793849755</coordinates></Point>
+</Placemark>
+<Placemark><name>Doheny_Memory_Library</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28417004020496,34.02039033454973</coordinates></Point>
+</Placemark>
+<Placemark><name>Patsy_Fountain</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28512198214101,34.02026847473729</coordinates></Point>
+</Placemark>
+<Placemark><name>Panda_Express</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28601191493899,34.02031887012779</coordinates></Point>
+</Placemark>
+<Placemark><name>City_Tacos</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28452811881083,34.02413723129871</coordinates></Point>
+</Placemark>
+<Placemark><name>McClintock_Ave_Entrance</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28751588619613,34.02505923817232</coordinates></Point>
+</Placemark>
+<Placemark><name>Downey_Way_Entrance</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.29125840220978,34.02189339483794</coordinates></Point>
+</Placemark>
+<Placemark><name>Tutor_Hall_Cafe</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.29016355808665,34.01995138734030</coordinates></Point>
+</Placemark>
+<Placemark><name>Science_Engineering_Libary</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28888623986234,34.01997640732121</coordinates></Point>
+</Placemark>
+<Placemark><name>Epstein_Fountain</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28911137778152,34.02056653521406</coordinates></Point>
+</Placemark>
+</Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+<Style id="z1">
+<IconStyle><Icon><href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href></Icon></IconStyle>
+</Style>
+<Placemark> 
+ <LineString>
+  <coordinates>
+   -118.28757798050098,34.03301543349168 
+   -118.28751588619613,34.02505923817232
+  </coordinates>
+ </LineString>
+</Placemark>
+<Placemark> 
+ <LineString>
+  <coordinates>
+   -118.28757798050098,34.03301543349168 
+   -118.28452811881083,34.02413723129871
+  </coordinates>
+ </LineString>
+</Placemark>
+<Placemark> 
+ <LineString>
+  <coordinates>
+   -118.28757798050098,34.03301543349168 
+   -118.29125840220978,34.02189339483794
+  </coordinates>
+ </LineString>
+</Placemark>
+</Document></kml>
